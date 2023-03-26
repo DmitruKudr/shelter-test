@@ -47,9 +47,13 @@ button {
     justify-content: center;
 
     cursor: pointer;
-}
-.button-icon.left {
-    transform: rotate(180deg);
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
 }
 .button-icon:hover {
     background: #FDDCC4;
