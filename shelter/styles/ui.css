@@ -57,20 +57,24 @@ button {
     letter-spacing: 0.06em;
     color: #292929;
 }
+.button-icon:hover {
+    color: #292929;
+    background: #FDDCC4;
+    border: 2px solid #FDDCC4;
+    transition: all .3s ease-in-out;
+}
 .button-icon.active {
     background: #F1CDB3;
     border: 2px solid #F1CDB3;
     transition: all .3s ease-in-out;
+
+    cursor: default;
 }
 .button-icon.inactive {
     color: #CDCDCD;
     border: 2px solid #CDCDCD;
     background: transparent;
     transition: all .3s ease-in-out;
-}
-.button-icon:hover {
-    color: #292929;
-    background: #FDDCC4;
-    border: 2px solid #FDDCC4;
-    transition: all .3s ease-in-out;
+
+    cursor: default;
 }

@@ -108,6 +108,8 @@ a {
     color: #FAFAFA;
     border-bottom: 3px solid #F1CDB3;
     transition: .3s all ease-in-out;
+    
+    cursor: default;
 }
 .nav-menu a.color-dark-l:hover {
     color: #292929;
@@ -117,4 +119,6 @@ a {
     color: #292929;
     border-bottom: 3px solid #F1CDB3;
     transition: .3s all ease-in-out;
+
+    cursor: default;
 }
