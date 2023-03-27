@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 40px;
+}
+
+
+.header-background {
+    padding: 30px 0;
+    background: #FFFFFF;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.nav-menu {
+    display: flex;
+    gap: 35px;
+}
+
+
+.pets {
+    padding: 80px 0 100px 0;
+    background: #f6f6f6;
+}
+.pets-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+}
+.cards-container {
+    width: 100%;
+    padding: 15px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 270px);
+    justify-content: space-between;
+    row-gap: 30px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    width: 270px;
+    padding-bottom: 30px;
+    background: #FAFAFA;
+    border-radius: 9px;
+    transition: all .3s ease-in-out;
+
+    cursor: pointer;
+}
+.card img {
+    width: 270px;
+    height: 270px;
+}
+.card:hover {
+    background: #FFFFFF;
+    transition: all .3s ease-in-out;
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+}
+.card:hover .button-secondary {
+    background: #FDDCC4;
+    border: 2px solid #FDDCC4;
+    transition: all .3s ease-in-out;
+}
+.navigation {
+    display: flex;
+    gap: 20px;
+}
+
+
+.footer {
+    padding-top: 40px;
+    background: radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+}
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.contacts {
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.contacts-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.locations {
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.locations img {
+    width: 22px;
+    height: 32px;
+}
