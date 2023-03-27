@@ -2,6 +2,23 @@
     text-align: center;
 }
 
+.logo_title {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+}
+.logo_subtitle {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+}
+
 .pets-card-title {
     font-family: 'Georgia';
     font-style: normal;
@@ -89,6 +106,11 @@ a {
 }
 .header a.color-dark-s:hover {
     color: #FAFAFA;
+    border-bottom: 3px solid #F1CDB3;
+    transition: .3s all ease-in-out;
+}
+.header a.color-dark-l:hover {
+    color: #292929;
     border-bottom: 3px solid #F1CDB3;
     transition: .3s all ease-in-out;
 }
