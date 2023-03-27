@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     height: 100%;
 }
@@ -48,10 +52,11 @@ body {
     gap: 45px;
 }
 .cards-container {
+    width: 100%;
     padding: 15px 0;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 40px;
+    grid-template-columns: repeat(4, 270px);
+    justify-content: space-between;
     row-gap: 30px;
 }
 .card {
@@ -79,6 +84,10 @@ body {
     background: #FDDCC4;
     border: 2px solid #FDDCC4;
     transition: all .3s ease-in-out;
+}
+.navigation {
+    display: flex;
+    gap: 20px;
 }
 
 

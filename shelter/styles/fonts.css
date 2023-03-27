@@ -91,7 +91,7 @@ a {
     text-decoration: none;
 }
 
-.header a {
+.nav-menu a {
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
@@ -104,12 +104,20 @@ a {
 
     cursor: pointer;
 }
-.header a.color-dark-s:hover {
+.nav-menu a.color-dark-s:hover {
+    color: #FAFAFA;
+    transition: .3s all ease-in-out;
+}
+.nav-menu a.color-dark-s.active {
     color: #FAFAFA;
     border-bottom: 3px solid #F1CDB3;
     transition: .3s all ease-in-out;
 }
-.header a.color-dark-l:hover {
+.nav-menu a.color-dark-l:hover {
+    color: #292929;
+    transition: .3s all ease-in-out;
+}
+.nav-menu a.color-dark-l.active {
     color: #292929;
     border-bottom: 3px solid #F1CDB3;
     transition: .3s all ease-in-out;
