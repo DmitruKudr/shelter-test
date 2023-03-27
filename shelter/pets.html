@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles/pets.css">
         <link rel="stylesheet" href="styles/fonts.css">
         <link rel="stylesheet" href="styles/colors.css">
@@ -18,16 +18,18 @@
         <div class="wrapper">
         
             <header class="header">
+                <a href="main.html">
                 <h1 class="logo">
                     <span class="logo_title color-dark-l">Cozy House</span>
                     <span class="logo_subtitle color-dark-3xl">Shelter of pets in Boston</span>
                 </h1>
-                <div class="nav-menu">
-                    <a class="color-dark-l">About the shelter</a>
-                    <a class="color-dark-l">Our pets</a>
-                    <a class="color-dark-l">Help the shelter</a>
-                    <a class="color-dark-l">Contacts</a>
-                </div>
+                </a>
+                <nav class="nav-menu">
+                    <a class="color-dark-l" href="main.html">About the shelter</a>
+                    <a class="color-dark-l active">Our pets</a>
+                    <a class="color-dark-l" href="main.html#help">Help the shelter</a>
+                    <a class="color-dark-l" href="#contacts">Contacts</a>
+                </nav>
             </header>
 
         </div>
@@ -83,12 +85,19 @@
                         <button class="button-secondary">Learn more</button>
                     </div>
                 </div>
+                <div class="navigation">
+                    <button class="button-icon inactive"><<</button>
+                    <button class="button-icon inactive"><</button>
+                    <button class="button-icon active">1</button>
+                    <button class="button-icon">></button>
+                    <button class="button-icon">>></button>
+                </div>
             </div>
 
         </div>
         </main>
 
-        <footer class="footer">
+        <footer class="footer" id="contacts">
         <div class="wrapper">
         
             <div class="footer-content">
