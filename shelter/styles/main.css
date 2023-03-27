@@ -30,6 +30,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
 }
 .nav-menu {
     display: flex;
@@ -136,6 +137,7 @@ body {
     gap: 60px;
 }
 .list {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
